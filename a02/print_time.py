@@ -11,6 +11,12 @@ def print_time():
         dayBuff = '0'
     today = '%d/%s%d/%s%d'%(theDate.year,monthBuff,theDate.month,dayBuff,theDate.day)    
 
+    #add some html!
+    print """<html><body><p>"""
+
     print "Today's date: %s" % today
+    
+    print """</p></body></html>"""
+
 
 print_time()

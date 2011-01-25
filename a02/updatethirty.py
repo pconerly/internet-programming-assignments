@@ -112,7 +112,7 @@ def get_content(uri):
         if os.path.isfile(path):
             
             if path.endswith('.py'):
-                return (200, get_mime(uri), get_script(path))
+                return (200,  'text/html', get_script(path))
             return (200, get_mime(uri), get_file(path))
         if os.path.isdir(path):
             if(uri.endswith('/')):
