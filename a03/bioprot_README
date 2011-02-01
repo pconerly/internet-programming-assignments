@@ -1,0 +1,10 @@
+#readme for bioprotein.py
+
+#This api mashup does a search on the NCBI using the API utility to get
+#amino acid sequence data.
+
+#Then the program runs the AA sequence through a dictionary to find the
+#hydrophobicity of each residue.
+
+#Finally it uses google charts to create a graph of the hydrophobicity of
+#the amino acid chain.
